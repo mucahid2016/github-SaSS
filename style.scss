@@ -1,0 +1,28 @@
+@import 'variables';
+@import 'header';
+@import 'contents';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #c9d1d9;
+    background-color: #0d1117;
+    a{
+        
+        color: #c9d1d9;
+        text-decoration: none;
+    }
+}
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }

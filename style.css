@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap");
+.Header {
+  background-color: #24292e;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.Header-logo {
+  margin-right: 16px;
+}
+.Header-logo svg {
+  width: 32px;
+  height: 32px;
+  color: white;
+}
+.Header-search {
+  position: relative;
+}
+.Header-search input {
+  background-color: hsla(0, 0%, 100%, 0.125);
+  color: white;
+  width: 300px;
+  height: 25px;
+  padding: 7px;
+  font-size: 12px;
+  border: none;
+  margin-right: 16px;
+  border-radius: 3px;
+}
+.Header-search svg {
+  position: absolute;
+  right: 22px;
+  top: 5px;
+}
+.Header-links a {
+  color: white;
+  margin-right: 16px;
+  font-family: "Maven Pro", "Roboto", sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+}
+.Header-right {
+  margin-left: auto;
+}
+.Header-right svg {
+  color: #ccc;
+  margin-left: 10px;
+}
+
+.Main {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  margin-top: 32px;
+}
+.Main-about img {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+}
+.Main-about-title {
+  margin-top: 32px;
+}
+.Main-about-title h3 {
+  padding-bottom: 10px;
+}
+.Main-about-title h4 {
+  padding-bottom: 30px;
+}
+.Main-about-title button {
+  cursor: pointer;
+  width: 100%;
+  height: 36px;
+  border: 1px solid rgba(39, 36, 36, 0.2);
+  border: none;
+  border-radius: 3px;
+  background-color: #21262d;
+  color: #c9d1d9;
+}
+.Main-about-desc {
+  margin-top: 16px;
+}
+.Main-projects {
+  width: 100%;
+  margin-left: 32px;
+}
+.Main-projects-links {
+  display: flex;
+  justify-content: space-around;
+}
+.Main-projects-links a {
+  text-decoration: none;
+  color: #c9d1d9;
+}
+.Main-projects .Section {
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+.Main-projects .Section a {
+  font-size: 12px;
+  color: #586069;
+}
+.Main-projects .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.Main-projects-bar {
+  padding: 10px;
+  border: 1px solid #515355;
+  width: 450px;
+  height: 100px;
+  margin-top: 20px;
+  margin-right: 10px;
+  position: relative;
+  border-radius: 6px;
+}
+.Main-projects-bar .up {
+  display: flex;
+}
+.Main-projects-bar .up svg {
+  position: absolute;
+  right: 10px;
+}
+.Main-projects-bar .down {
+  margin-top: 40px;
+  margin-left: 21px;
+  font-size: 12px;
+}
+.Main-projects-bar .down span {
+  background-color: #b07219;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #c9d1d9;
+  background-color: #0d1117;
+}
+body a {
+  color: #c9d1d9;
+  text-decoration: none;
+}
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}/*# sourceMappingURL=style.css.map */
